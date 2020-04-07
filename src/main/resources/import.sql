@@ -1,3 +1,3 @@
-INSERT INTO bike (id,contact,email,model,name,phone,purchase_date,purchase_price) VALUES (1,true,'jeff@bikes.com', 'Globo MTB 29 Full Suspension', 'Jeff Miller', '328-443-5555', '2020-05-22 19:10:25-07', '1100');
-INSERT INTO bike (id,contact,email,model,name,phone,purchase_date,purchase_price) VALUES (2,false,'samantha@bikes.com', 'Globo Carbon Fiber Race Series', 'Samantha Davis', '448-397-555', '2020-06-22 19:10:25-07', '1999');
-INSERT INTO bike (id,contact,email,model,name,phone,purchase_date,purchase_price) VALUES (3,true,'dave@bikes.com', 'Globo Time Trial Blade', 'Dave Warren', '563-891-5555', '2020-07-22 19:10:25-07', '2100');
+-- INSERT INTO bike (id,contact,email,model,name,phone,purchase_date,purchase_price) VALUES (1,true,'jeff@bikes.com', 'Globo MTB 29 Full Suspension', 'Jeff Miller', '328-443-5555', '2020-05-22 19:10:25-07', '1100');
+-- INSERT INTO bike (id,contact,email,model,name,phone,purchase_date,purchase_price) VALUES (2,false,'samantha@bikes.com', 'Globo Carbon Fiber Race Series', 'Samantha Davis', '448-397-555', '2020-06-22 19:10:25-07', '1999');
+-- INSERT INTO bike (id,contact,email,model,name,phone,purchase_date,purchase_price) VALUES (3,true,'dave@bikes.com', 'Globo Time Trial Blade', 'Dave Warren', '563-891-5555', '2020-07-22 19:10:25-07', '2100');
