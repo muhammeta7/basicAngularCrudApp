@@ -1,9 +1,18 @@
 package com.kromero.bike.models;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import java.math.BigDecimal;
 import java.util.Date;
 
+@Entity
 public class Bike {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Integer id;
 
     private String name;
     private String email;
@@ -13,6 +22,10 @@ public class Bike {
     private BigDecimal purchasePrice;
     private Date purchaseDate;
     private boolean contact;
+
+    public Integer getId() {
+        return id;
+    }
 
     public String getName() {
         return name;
